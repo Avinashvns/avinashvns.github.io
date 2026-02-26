@@ -1,16 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Singh | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #94a3b8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 12px 25px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+
+        footer {
+            padding: 20px;
+            background: #020617;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>👋 Hello, I'm Rahul</h1>
+<header>
+    <h1>Hi, I'm Avinash 👋</h1>
+    <p>Full Stack Developer | ML Enthusiast</p>
+
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="resume.pdf" class="btn">Download Resume</a>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I build Machine Learning models, Flask APIs and modern web applications using React.</p>
+</section>
+
+<section id="projects">
     <h2>My Projects</h2>
 
-    <a href="https://your-streamlit-link.streamlit.app">
-        🏠 House Price Prediction App
-    </a>
+    <div class="card">
+        <h3>House Price Prediction</h3>
+        <p>Machine Learning model deployed with Streamlit.</p>
+        <a href="https://your-streamlit-link.streamlit.app" class="btn" target="_blank">Live Demo</a>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <a href="https://github.com/Avinashvns" class="btn">GitHub</a>
+    <a href="#" class="btn">LinkedIn</a>
+</section>
+
+<footer>
+    © 2026 Avinash Singh | Built with ❤️
+</footer>
 
 </body>
 </html>
